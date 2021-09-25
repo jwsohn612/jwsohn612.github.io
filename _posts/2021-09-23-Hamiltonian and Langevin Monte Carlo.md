@@ -3,6 +3,7 @@ layout: post
 title: Hamiltonian and Langevin Monte Carlo
 subtitle: HMC
 date: 2021-09-23 00:00:00 
+use_math: true
 ---
 
 # Hamiltonian Dynamics 
