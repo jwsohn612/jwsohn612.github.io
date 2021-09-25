@@ -8,7 +8,12 @@ use_math: true
 
 # Hamiltonian Dynamics 
 
-To the best of my knowldege, Hamiltonian dynamics is a physical system where potential energy and kinetic energy preserves the total amount of energy. For example, if kinetic energy increases, potential energy decreases in accordance with the amount of the increment. This relationship  between two energy functions can be mathematically described through the partial differential equations. All in all, we obtain 
+To the best of my knowldege, Hamiltonian dynamics is a physical system where potential energy and kinetic energy preserves the total amount of energy. For example, if kinetic energy increases, potential energy decreases in accordance with the amount of the increment. This relationship  between two energy functions can be mathematically described through the partial differential equations. Denote $q$ and $p$ are d-dimensional vectors explaning potential and kinetic energy respectively, and $H$ implies Hamiltonian dynamics. 
+
+    $$\dfrac{d q_i}{dt} \% = \dfrac{dH}{dp_i} $$
+    $$\dfrac{d p_i}{dt} \% = -\dfrac{dH}{dq_i} $$
+
+All in all, we obtain 
 
 $$H(q,p) = U(q) + K(p)$$
 
@@ -21,6 +26,8 @@ Hamiltonian Monte Carlo (HMC), as this name implies, harnesses characteristics o
 $$H(p,q) = \frac{1}{Z}\exp(-(U(q)+K(p))/T)$$
 
 where $T$ is temperature and $K(P)$ conventionally has the form of $p^{T}Mp/2$ which looks a normal distribution exactly. 
+
+
 
 
 # Reference
