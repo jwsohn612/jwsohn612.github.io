@@ -37,9 +37,11 @@ As the PDEs implies, each element in both energy functions has the derivative wi
 One basic approach called Euler's method is based on approximating derivatives of $q(t)$ and $p(t)$ by the amount of small size $\epsilon$. Let $K(p)=\sum_{i=1}^{d} p_i^2/m_i$. Then, the numerical derivatives are
 1. $\dfrac{dp_i(t)}{dt}\approx \dfrac{p_i(t+\epsilon)-p_i(t)}{\epsilon}$
 2. $\dfrac{dq_i(t)}{dt}\approx \dfrac{q_i(t+\epsilon)-q_i(t)}{\epsilon}$,
+
 and this approximation can also be expressed as 
 1. $p_i(t+\epsilon) \approx p_i(t) + \epsilon \frac{dp_i(t)}{dt}$ = $p_i(t+\epsilon) \approx p_i(t) - \epsilon \frac{dU(q)}{dq_i}$
 2. $q_i(t+\epsilon) \approx q_i(t) + \epsilon \frac{dq_i(t)}{dt}$ = $q_i(t+\epsilon) \approx q_i(t) + \epsilon \frac{p_i(t)}{m_i}$.
+
 Therefore, we can obtain values of $p(t)$ and $q(t)$ at $t=\tau$ from arbitrary initial values $p(0)$ and $q(0)$. For getting the RHS, you need to plug the PDE equations into these derivatives equations. 
 
 
@@ -50,7 +52,21 @@ Euler's method, however, has poor approximation so practically not useful, altho
 2. $q_i(t+\epsilon) \approx q_i(t) + \epsilon \frac{p_i(t+\epsilon/2)}{m_i}$.
 3. $p_i(t+\epsilon) \approx p_i(t+\epsilon) - \epsilon/2 \frac{dU(q(t+\epsilon))}{dq_i}$
 
+## HMC algorithm
+
+So far, I have described the proposal step of HMC which is actually equivalent to the approximation of PDEs. Algorithm flow of HMC might help you figure out HMC more clearly. To simplify description, assume $d=1$. For each iteration, 
+
+1. Generate $p_0 \sim {\rm N}(0, m)$
+2. Set $(q',p') = (q(\tau), p(\tau))$ through Leapfrog method with the initial value $p_0$. Note $\tau$ and $\epsilon$ are hyperparameters.
+3. Negation of p', p' = -p'
+4. Evaluating $(q',p')$ with a probability $\min(1,H(q',p')/H(q,p)=\min(1, \exp(-U(q')+U(q)-K(p')+K(p)))$
+
+What we need to closely look at is Step 2 and 3. To put it simply, Step 3 is introduced to make sure that the deterministic transition in Step 2 inherits all appropriate properties with which a transition kernel in the context of Markov Chain Monte Carlo (MCMC) is equip. 
+
+# Langevin dynamics 
+
+Langevin dynamics is a special case of Hamiltonian dynamics when the approximation is executed just one time. Hence, performance is not as good as HMC in general. Interestingly however, it has been discoverd when $d$ is high-dimensional, Langevin Monte Carlo (LMC) works fine as well. Considering a lot of machine learning models require countless parameters nowadays, approximated Bayesian computing algorithm based on Langevin dynamics is able to be prioritized.
 
 
 # Reference
- - Neal
+ - Brooks, Steve, et al., eds. Handbook of markov chain monte carlo. CRC press, 2011.
