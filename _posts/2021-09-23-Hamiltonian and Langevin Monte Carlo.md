@@ -24,7 +24,11 @@ Hamiltonian Monte Carlo (HMC), as this name implies, harnesses characteristics o
 
 $H(p,q) = \dfrac{1}{Z}\exp(-\dfrac{1}{T}(U(q)+K(p)))$
 
-where $T$ is temperature and $K(P)$ conventionally has the form of $p^{T}Mp/2$ which looks a normal distribution exactly. Remark that $U(q)$ plays a role of target distribution that we want to draw enough random samples for inferences. For example, we can specifiy $U(q) = -\log(p(q)p(D|q))$ for collecting samples from posterior distributions through HMC. 
+where $T$ is temperature and $K(P)$ conventionally has the form of $p^{T}Mp/2$ which looks a normal distribution exactly. Remark that $U(q)$ plays a role of target distribution that we want to draw enough random samples for inferences. For example, we can specifiy 
+
+$U(q) = -\log(p(q)p(D|q))$ 
+
+for collecting samples from posterior distributions through HMC. 
 
 Similar to other Monte Carlo based algorithms, HMC also consists of two phases: proposing a new candidate and evaluating the proposed one with an acceptance probability. More specifically, in HMC, solving Hamiltonian dynamics becomes the proposal step, and after that, the evaluation process is followed. What does the solving equation mean?
 
