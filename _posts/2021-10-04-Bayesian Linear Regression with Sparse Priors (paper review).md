@@ -10,7 +10,7 @@ This is review of "Bayesian linear regression with sparse priors.", Castillo, et
 
 # Sparse Linear Models 
 
-Consider a model $Y=X\beta $ with $X \in \mathbb{R}^{n\times p}$ and $\beta \in \mathbb{R}^{p}$. Variable selection has been highly compelling when $n << p$ and many of componenets in $\beta$ are not significant, which is called a sparse linear model. Burgeoning of this field, diverse approaches have been suggested such as stepwise-selection, LASSO, etc.. 
+Consider a model $Y=X\beta $ with $X \in \mathbb{R}^{n\times p}$ and $\beta \in \mathbb{R}^{p}$. Variable selection has been highly compelling when $n << p$ and many of componenets in $\beta$ are not significant, which is called a sparse linear model. The burgeoning of this field, diverse approaches have been suggested such as stepwise-selection, LASSO, etc.. 
 
 What this paper especially works on is a 'sparse prior' whose structure consists of the following steps.
 
