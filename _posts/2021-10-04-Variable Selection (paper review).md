@@ -14,17 +14,21 @@ Consider a model $Y=X\beta $ with $X \in \mathbb{R}^{n\times p}$ and $\beta \in 
 
 What this paper especially works on is a 'sparse prior' whose structure consists of the following steps.
 
-1. Select dimension of $\beta$: $s \sim \pi_{p}(s)$ on the set {$0,1,2,\dots,p\right$}
+1. Select dimension of $\beta$: $s \sim \pi_{p}(s)$ on the set {$0,1,2,\dots,p $}
 
-2. Select a subset $S \subset$ {$0,1,2,\dots,p$} whose cardinality is $|S|=s$
+2. Select a subset $S \subset${$0,1,2,\dots,p$} whose cardinality is $|S|=s$
 
-3. Assign a prior $g_S$ to $\beta_S := \{\beta_i; i\in S \}$ while $\beta_{S^c}$ has a measure only at zero. 
+3. Assign a prior $g_S$ to $\beta_S :=$ {$\beta_i; i\in S$} while $\beta_{S^c}$ has a measure only at zero. 
 
 The authors discovered that this prior has some desirable properties in the context of variable selection with specific conditions of the sparse prior. 
 
 # Prior Specification 
 
-They assume that $g_S$ consists of $s$ independent Laplace distributions with a scale parameter $\lambda$: $g_S(\beta) \propto \lambda \exp(-\lambda|\beta|)$. The scale parameter has, however, is restricted on 
+They assume that $g_S$ consists of $s$ independent Laplace distributions with a scale parameter $\lambda$: 
+
+$g_S(\beta) \prop \lambda \exp(-\lambda |\beta |)$. 
+
+The scale parameter has, however, is restricted on 
 
 $dfrac{||X||}{p} \leq \lambda \leq 2\bar{\lambda},\quad\quad \bar{\lambda} = 2||X||\sqrt{\log p}.$
 
@@ -36,7 +40,11 @@ $A_1 p^{-A_3}\pi_p(s-1) \leq \pi_p(s)\leg A_2 p^{-A_4} \pi_p(s-1),\quad s=0,1,\d
 
 for some constants $A_1, A_2, A_3, A_4 >0$. It turns out that a 'Slap-and-Spike' prior is one example when the mixture weight comes from ${\rm Beta}(1,p^u), u>1$. 
 
-# Requirements of Model Matrix
+# Requirements of estimability
+
+In general, each coefficient of a high-dimensional linear model cannot be estimated due to linearly dependent columns. However, it is known that the local invertability of Gram matrix is sufficient condition for estimability of high-dimensional linear models if $\beta$ is sparse. This estimable condition, in this paper, is represented as 
+
+$\phi(S) = := \inf$
 
 
 
