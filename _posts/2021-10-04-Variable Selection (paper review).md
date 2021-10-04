@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Variable Selection via sparse prior
+title: Bayesian Linear Regression via sparse prior
 subtitle: Paper Review
-date: 2021-09-23 00:00:00 
+date: 2021-10-04 00:00:00 
 use_math: true
 ---
 
-This is review of "Bayesian Linear Regression with Sparse Priors", Castillo, et al., 2018, The Annals of Statistics. This post is just written for individual study, so do not expect something special beyond the paper. 
+This is review of "Bayesian linear regression with sparse priors.", Castillo, et al.,  The Annals of Statistics 43.5 (2015): 1986-2018. This post is just written for individual study, so do not expect something special beyond the paper. 
 
 # Sparse Linear Models 
 
@@ -37,6 +37,8 @@ for some constants $A_1, A_2, A_3, A_4 >0$. It turns out that a 'Slap-and-Spike'
 In general, each coefficient of a high-dimensional linear model cannot be estimated due to linearly dependent columns. However, it is known that the local invertability of Gram matrix is sufficient condition for estimability of high-dimensional linear models if $\beta$ is sparse. This estimable condition, in this paper, is represented as the compatibility number $\phi(S)$. Refer to the paper if you want to check the detail of the number. In addition, they also introduced uniform compatibility, smallest scaled sparse singular value, and mutual coherence, which are used to prove desirable properties of the sparse prior. 
 
 # Theoretical Properties of this prior
+
+With the above assumptions and requirements, they stated that the prior provides:  
  
 1. (Dimension): The dimension of $S_\beta$ does not overshoot over the true dimension by more than a factor in the sense of posterior distribution. 
 
@@ -44,7 +46,16 @@ In general, each coefficient of a high-dimensional linear model cannot be estima
 
 3. (Oracle Recovery): The authors showed an oracle inequality with a posterior probability measure can be dissused with respect to $L_1$, $L_2$, and $L_\infty$. The second property actually can be induced from this oracle inequality. 
 
+4. (No supersets): Coefficients of a model will be a subset of a true set of coefficients.
+
+5. (Selection): Non-zero coefficients are included in $S_\beta$
+
+
+# Approximation of posterior distributions 
+
+
+When a model is predicated on the small lambda regime, the posterior distribution is approximated to a random mixture distribution between a normal distribution and the Dirac-delta measure at zero.  To be specific, assume the model is given a well selected set $S$ and the prior distribution satisfies the above conditions. Then, by Bernstein-Von Mises, the asymptotic posterior distribution of $S$ has the mixture distribution around the neighborhood of the true coefficients and it converges to the true posterior distribution (when data dominates the shrinkage induced by the prior parameters).
 
 
 # Reference
- - Brooks, Steve, et al., eds. Handbook of markov chain monte carlo. CRC press, 2011.
+ - Castillo, Ismaël, Johannes Schmidt-Hieber, and Aad Van der Vaart. "Bayesian linear regression with sparse priors." The Annals of Statistics 43.5 (2015): 1986-2018.
