@@ -14,9 +14,9 @@ Consider a model $Y=X\beta $ with $X \in \mathbb{R}^{n\times p}$ and $\beta \in 
 
 What this paper especially works on is a 'sparse prior' whose structure consists of the following steps.
 
-1. Select dimension of $\beta$: $s \sim \pi_{p}(s)$ on the set $\\{0,1,2,\dots,p\right \\}$
+1. Select dimension of $\beta$: $s \sim \pi_{p}(s)$ on the set {$0,1,2,\dots,p\right$}
 
-2. Select a subset $S \subset \{0,1,2,\dots,p\} $ whose cardinality is $|S|=s$
+2. Select a subset $S \subset \text{{}0,1,2,\dots,p \text{}} $ whose cardinality is $|S|=s$
 
 3. Assign a prior $g_S$ to $\beta_S := \{\beta_i; i\in S \}$ while $\beta_{S^c}$ has a measure only at zero. 
 
