@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bayesian Linear Regression via sparse prior
+title: Bayesian Linear Regression with Sparse Priors (paper review)
 subtitle: Paper Review
 date: 2021-10-04 00:00:00 
 use_math: true
