@@ -16,7 +16,7 @@ What this paper especially works on is a 'sparse prior' whose structure consists
 
 1. Select dimension of $\beta$: $s \sim \pi_{p}(s)$ on the set {$0,1,2,\dots,p\right$}
 
-2. Select a subset $S \subset \text{{}0,1,2,\dots,p \text{}} $ whose cardinality is $|S|=s$
+2. Select a subset $S \subset$ {$0,1,2,\dots,p$} whose cardinality is $|S|=s$
 
 3. Assign a prior $g_S$ to $\beta_S := \{\beta_i; i\in S \}$ while $\beta_{S^c}$ has a measure only at zero. 
 
@@ -36,6 +36,7 @@ $A_1 p^{-A_3}\pi_p(s-1) \leq \pi_p(s)\leg A_2 p^{-A_4} \pi_p(s-1),\quad s=0,1,\d
 
 for some constants $A_1, A_2, A_3, A_4 >0$. It turns out that a 'Slap-and-Spike' prior is one example when the mixture weight comes from ${\rm Beta}(1,p^u), u>1$. 
 
+# Requirements of Model Matrix
 
 
 
