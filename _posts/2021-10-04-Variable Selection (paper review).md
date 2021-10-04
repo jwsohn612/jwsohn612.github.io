@@ -24,7 +24,9 @@ The authors discovered that this prior has some desirable properties in the cont
 
 # Prior Specification 
 
-They assume that 
+They assume that $g_S$ consists of $s$ independent Laplace distributions with a scale parameter $\lambda$: $g_S(\beta) \propto \lambda \exp(-\lambda|\beta|)$. The scale parameter has, however, is restricted on 
+
+$dfrac{||X||}{p} \leq \lambda \leq 2\bar{\lambda},\quad\quad \bar{\lambda} = 2||X||\sqrt{\log p}$
 
 
 
