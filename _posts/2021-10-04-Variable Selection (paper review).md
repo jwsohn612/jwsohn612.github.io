@@ -34,7 +34,7 @@ One thing we have to care is that we should avoid the case that the shrinkage th
 
 $A_1 p^{-A_3}\pi_p(s-1) \leq \pi_p(s)\leg A_2 p^{-A_4} \pi_p(s-1),\quad s=0,1,\dots,p$ 
 
-for some constants $A_1, A_2, A_3, A_4 >0$.
+for some constants $A_1, A_2, A_3, A_4 >0$. It turns out that a 'Slap-and-Spike' prior is one example when the mixture weight comes from ${\rm Beta}(1,p^u), u>1$. 
 
 
 
