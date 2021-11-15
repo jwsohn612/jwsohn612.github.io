@@ -63,7 +63,7 @@ So far, I have described the proposal step of HMC which is actually equivalent t
 1. Generate $p_0 \sim {\rm N}(0, m)$
 2. Set $(q',p') = (q(\tau), p(\tau))$ through Leapfrog method with the initial value $p_0$. Note $\tau$ and $\epsilon$ are hyperparameters.
 3. Negation of p', p' = -p'
-4. Evaluating $(q',p')$ with a probability $\min(1,H(q',p')/H(q,p)=\min(1, \exp(-U(q')+U(q)-K(p')+K(p)))$
+4. Evaluating $(q',p')$ with a probability $\min(1,H(q',p')/H(q,p)) = \min(1, \exp(-U(q')+U(q)-K(p')+K(p)))$
 
 What we need to closely look at is Step 2 and 3. To put it simply, Step 3 is introduced to make sure that the deterministic transition in Step 2 inherits all appropriate properties with which a transition kernel in the context of Markov Chain Monte Carlo (MCMC) is equip. 
 
