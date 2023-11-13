@@ -5,7 +5,7 @@ description:
 background: '/img/bg-about.jpg'
 ---
 
-![alt text](https://github.com/jwsohn612/jwsohn612.github.io/raw/main/img/me.jpg)
+![alt text](https://github.com/jwsohn612/jwsohn612.github.io/blob/main/img/me.JPG)
 
 Hi all! 
 
