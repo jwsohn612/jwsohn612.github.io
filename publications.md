@@ -1,24 +1,24 @@
 ---
 layout: page
 title: Publications
-description: Toward Data Artist.
+description: Fairness, Privacy, Generative Models
 background: '/img/bg-about.jpg'
 ---
 
 
 # Publication
 
-- __Sohn, J.__ \*, Jeong, S.\*, Cho, Y. M., & Park, T. (2023). Functional clustering methods for binary longitudinal data with temporal heterogeneity. Computational Statistics & Data Analysis, 185, 107766.
+- __Sohn, J.__ \*, Jeong, S.\*, Cho, Y. M., and Park, T. (2023). Functional clustering methods for binary longitudinal data with temporal heterogeneity. Computational Statistics & Data Analysis, 185, 107766.
 
 - Kang, T.\*, Kim, S.\*, __Sohn, J.__\*, and Awan, J. (2023). Differentially Private Topological Data Analysis. arXiv preprint arXiv:2305.03609. (minor revision submitted to the Journal of Machine Learning Research) 
 
-- __Sohn, J.__, Song, Q., Lin, G. (2023). Fair Supervised Learning with A Simple Random Sampler of Sensitive Attributes. arXiv preprint arXiv:2311.05866.
+- __Sohn, J.__, Song, Q., and Lin, G. (2023). Fair Supervised Learning with A Simple Random Sampler of Sensitive Attributes. arXiv preprint arXiv:2311.05866.
 
 The star symbol * implies that the author(s) are equally contributed to the work. 
 
 # Preprint
 
-- __Sohn, J.__, Song, Q., Parallelly Tempered Generative Adversarial Nets. 
+- __Sohn, J.__ and Song, Q., Parallelly Tempered Generative Adversarial Nets. 
 
 # Presentation
 
