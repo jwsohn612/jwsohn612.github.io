@@ -7,13 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-Brief summary 
+Hi, I am Jinwon Sohn from South Korean and currently I am a fourth-year Ph.D. candidate in Statistics at Purdue University. Before the Ph.D. period, I worked at Datarize as a data scientist, contributing to evaluating recommendation models. During Ph.D. program, my research mostly has focused on fairness-aware machine learning and generative modeling  under the supervision of Professor Qifan Song. Plus, with active collaboration research, I have been expanding my research areas such as differential privacy and principal curve. Including the aforementioned topics, I am also interested in developing statistical methodologies particularly for synthetic data ultimately toward trustworthy statistical inference. I always welcome collaboration research. Feel free to reach out! 
 
 Research Interest
 ======
 - **Fairness-aware Machine Learning**, **Generative Modeling**, **Differential Privacy**, **Principal Curve**
 
-News
+News!
 ======
 - [11-14-2024] **Sohn, J**. and Song, Q. Parallelly Tempered Generative Adversarial Networks. This work is under major revision in the special issue of the *Journal of the American Statistical Association.* 
 
