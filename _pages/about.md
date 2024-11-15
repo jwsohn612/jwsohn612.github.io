@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I am Jinwon Sohn from South Korean and currently I am a fourth-year Ph.D. candidate in Statistics at Purdue University. Before entering the Ph.D. program, I worked at Datarize as a data scientist, contributing to evaluating recommendation models. During the Ph.D. program, my research has focused on integrating fairness-aware machine learning and generative modeling from statistical perspectives under the supervision of Professor Qifan Song. Plus, with active collaboration research, I have been expanding my research areas such as differential privacy and principal curve. Including the aforementioned topics, I am also interested in developing statistical methodologies particularly for synthetic data ultimately toward trustworthy statistical inference. I always welcome collaboration research. Feel free to reach out! 
+Hi, I am Jinwon Sohn from South Korea and currently I am a fourth-year Ph.D. candidate in Statistics at Purdue University. Before entering the Ph.D. program, I worked at Datarize as a data scientist, contributing to evaluating recommendation models. During the Ph.D. program, my research has focused on integrating fairness-aware machine learning and generative modeling from statistical perspectives under the supervision of Professor Qifan Song. Plus, with active collaboration research, I have been expanding my research areas such as differential privacy and principal curve. Including the aforementioned topics, I am also interested in developing statistical methodologies particularly for synthetic data ultimately toward trustworthy statistical inference. I always welcome collaboration research. Feel free to reach out! 
 
 Research Interests 💡
 ======
@@ -18,7 +18,7 @@ Research Interests 💡
 
 News ⭐ 
 ======
-- [11-14-2024] **Sohn, J**. and Song, Q. Parallelly Tempered Generative Adversarial Networks. This work is under major revision for the special issue in the *Journal of the American Statistical Association.* 
+- [11-14-2024] **Sohn, J**. and Song, Q. Parallelly Tempered Generative Adversarial Networks. This work is under major revision for the special issue (Statistical Science in Artificial Intelligence) in *Journal of the American Statistical Association.* 
 
 - [05-03-2024] Jinwon Sohn is selected for 2024-2025 Ross Lynn Research Scholar Grant for Statistics at Purdue University.
 
