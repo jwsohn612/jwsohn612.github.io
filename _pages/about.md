@@ -11,14 +11,11 @@ Hi, I am Jinwon Sohn from South Korea and currently I am a fourth-year Ph.D. can
 
 Research Interests 💡
 ======
-- **Fairness-aware Machine Learning**
-- **Generative Modeling**
-- **Differential Privacy**
-- **Principal Curve**
+- **Fairness-aware Machine Learning**, **Generative Modeling**, **Differential Privacy**, **Principal Curve**
 
 News ⭐ 
 ======
-- [11-14-2024] **Sohn, J**. and Song, Q. Parallelly Tempered Generative Adversarial Networks. This work is under major revision for the special issue (Statistical Science in Artificial Intelligence) in *Journal of the American Statistical Association.* 
+- [11-14-2024] **Sohn, J**. and Song, Q. Parallelly Tempered Generative Adversarial Networks. This work is under major revision for the special issue (Statistical Science in Artificial Intelligence) in **Journal of the American Statistical Association.** 
 
 - [05-03-2024] Jinwon Sohn is selected for 2024-2025 Ross Lynn Research Scholar Grant for Statistics at Purdue University.
 
