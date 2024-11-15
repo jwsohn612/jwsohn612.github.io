@@ -11,7 +11,10 @@ Hi, I am Jinwon Sohn from South Korean and currently I am a fourth-year Ph.D. ca
 
 Research Interest
 ======
-- **Fairness-aware Machine Learning**, **Generative Modeling**, **Differential Privacy**, **Principal Curve**
+- **Fairness-aware Machine Learning**, 
+- **Generative Modeling**, 
+- **Differential Privacy**, 
+- **Principal Curve**
 
 News!
 ======
