@@ -17,7 +17,7 @@ News ⭐
 ======
 - [11-21-2024] **Jinwon Sohn** will present a talk at Graduate Student Workshop hosted by Statistics at Purdue. Title: Parallelly Tempered Generative Adversarial Networks. 
 
-- [11-19-2024] **Sohn, J**. and Song, Q. [Parallelly Tempered Generative Adversarial Networks.](https://arxiv.org/abs/2411.11786).  This is under revision for the special issue (Statistical Science in Artificial Intelligence) in **Journal of American Statistical Association**.
+- [11-19-2024] **Sohn, J**. and Song, Q. [Parallelly Tempered Generative Adversarial Networks.](https://arxiv.org/abs/2411.11786).  This is under revision for the special issue (Statistical Science in Artificial Intelligence) in **JASA**.
 
 - [05-03-2024] **Jinwon Sohn** is selected for 2024-2025 Ross Lynn Research Scholar Grant for Statistics at Purdue University.
 
