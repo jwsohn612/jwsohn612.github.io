@@ -17,7 +17,7 @@ News ⭐
 ======
 - [Oct 2025] **Sohn, J.**, Song, Q., & Lin, G. Task-tailored Pre-processing: Fair Downstream Supervised Learning. Under revision in **Transactions on Pattern Analysis and Machine Intelligence**.
 
-- [Oct 2025] My daughter **Yena Sohn** was born!  
+- [Oct 2025] My daughter **Yena Sohn** was born! 참 고생 많았다 Sangmi!
 
 - [Sep 2025] Lim, T., Nam, K., and **Sohn, J.** Monotone Curve Estimation with Convex Duality. Under R&R in **Journal of American Statistical Association**
 
