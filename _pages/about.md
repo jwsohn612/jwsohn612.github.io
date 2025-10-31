@@ -21,7 +21,7 @@ News ⭐
 
 - [Sep 2025] Lim, T., Nam, K., and **Sohn, J.** Monotone Curve Estimation with Convex Duality. Under R&R in **Journal of American Statistical Association**
 
-- [July 2025] **Jinwon Sohn** joined Chicago Booth as a postdoc under the supervision of Prof. Veronika Rockova
+- [July 2025] **Jinwon Sohn** joined Chicago Booth as a postdoc under the supervision of Prof. Veronika Rockova.
 
 - [Jan 2025] Lim, T., Nam, K., and **Sohn, J.** [Monotone Curve Estimation with Convex Duality](https://arxiv.org/abs/2501.06975) is now available at arxiv. 
 
