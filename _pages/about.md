@@ -15,13 +15,21 @@ Research Interests 💡
 
 News ⭐ 
 ======
-- [1-14-2025] Lim, T., Nam, K., and **Sohn, J.** [Monotone Curve Estimation with Convex Duality](https://arxiv.org/abs/2501.06975) is now available at arxiv. 
+- [Oct 2025] **Sohn, J.**, Song, Q., & Lin, G. Task-tailored Pre-processing: Fair Downstream Supervised Learning. Under revision in **Transactions on Pattern Analysis and Machine Intelligence**.
 
-- [11-21-2024] **Jinwon Sohn** will present a talk at Graduate Student Workshop hosted by Statistics at Purdue. Title: Parallelly Tempered Generative Adversarial Networks. 
+- [Oct 2025] My daughter **Yena Sohn** was born!  
 
-- [11-19-2024] **Sohn, J.** and Song, Q. [Parallelly Tempered Generative Adversarial Networks.](https://arxiv.org/abs/2411.11786).  This is under revision for the special issue (Statistical Science in Artificial Intelligence) in **Journal of American Statistical Association**.
+- [Sep 2025] Lim, T., Nam, K., and **Sohn, J.** Monotone Curve Estimation with Convex Duality. Under R&R in **Journal of American Statistical Association**
 
-- [05-03-2024] **Jinwon Sohn** is selected for 2024-2025 Ross Lynn Research Scholar Grant for Statistics at Purdue University.
+- [July 2025] **Jinwon Sohn** joined Chicago Booth as a postdoc under the supervision of Prof. Veronika Rockova
+
+- [Jan 2025] Lim, T., Nam, K., and **Sohn, J.** [Monotone Curve Estimation with Convex Duality](https://arxiv.org/abs/2501.06975) is now available at arxiv. 
+
+- [Nov 2024] **Jinwon Sohn** will present a talk at Graduate Student Workshop hosted by Statistics at Purdue. Title: Parallelly Tempered Generative Adversarial Networks. 
+
+- [Nov 2024] **Sohn, J.** and Song, Q. [Parallelly Tempered Generative Adversarial Networks.](https://arxiv.org/abs/2411.11786).  This is under revision for the special issue (Statistical Science in Artificial Intelligence) in **Journal of American Statistical Association**.
+
+- [May 2024] **Jinwon Sohn** is selected for 2024-2025 Ross Lynn Research Scholar Grant for Statistics at Purdue University.
 
 Recent Publications 📚
 ======
