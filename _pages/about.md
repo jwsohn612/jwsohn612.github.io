@@ -7,14 +7,20 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I am Jinwon Sohn from South Korea and currently I am a Principal Researcher at the University of Chicago Booth under the supervision of Prof. Veronika Rockova. I earned my Ph.D. in Statistics at Purdue University under the supervision of Prof. Qifan Song and master degree at Yonsei University under Prof. Taeyoung Park. Before entering the Ph.D. program, I worked at Datarize as a data scientist, contributing to evaluating recommendation models. During the Ph.D. program, my research has focused on integrating fairness-aware machine learning and generative modeling from statistical perspectives. Plus, with active collaboration research, I have been expanding my research areas such as differential privacy and Bayesian statistics. Including the aforementioned topics, I am also interested in developing statistical methodologies harnessing synthetic data ultimately toward trustworthy statistical inference. 
+Hi, I am Jinwon Sohn from South Korea and currently I am a Principal Researcher at the University of Chicago Booth under the supervision of Prof. Veronika Rockova. I earned my Ph.D. in Statistics at Purdue University under the supervision of Prof. Qifan Song and master degree at Yonsei University under Prof. Taeyoung Park. Before entering the Ph.D. program, I worked at Datarize as a data scientist, contributing to evaluating recommendation models.
+
+My research interests span a broad spectrum of methodologies, ranging from classical statistics to modern AI research, including fairness-aware machine learning, generative modeling, Bayesian statistics, differential privacy, and principal curve estimation. Across these topics, my research style is grounded in building a rigorous theoretical foundation from a statistical perspective—I aim to bridge statistical foundations and contemporary machine learning by developing methods whose properties can be understood, justified, and trusted through principled statistical reasoning. Ultimately, I am interested in advancing statistical methodologies—including those leveraging synthetic data—toward trustworthy statistical inference in the era of AI.
 
 Research Interests 💡
 ======
-- **Fairness-aware Machine Learning**, **Generative Modeling**, **Bayesian Statistics**, **Differential Privacy**, **Principal Curve**
+- **Fairness-aware Machine Learning**, **Generative Modeling**, **Bayesian Statistics**, **Differential Privacy**, **Reasoning LLM**, **Imputation**, **Causal Inference**, **Principal Curve**
 
 News ⭐ 
 ======
+- [Apr 2026] **Sohn, J.**, Song, Q., & Lin, G. [Task-tailored Pre-processing: Fair Downstream Supervised Learning.](https://arxiv.org/abs/2601.11897). Minor revision was submitted to **Transactions on Pattern Analysis and Machine Intelligence**. 
+
+- [Mar 2026] **Sohn, J.** and Song, Q. [Parallelly Tempered Generative Adversarial Networks.](https://arxiv.org/abs/2411.11786).  Minor revision was submitted to **Journal of American Statistical Association**.
+
 - [Oct 2025] **Sohn, J.**, Song, Q., & Lin, G. Task-tailored Pre-processing: Fair Downstream Supervised Learning. Under revision in **Transactions on Pattern Analysis and Machine Intelligence**.
 
 - [Oct 2025] My daughter **Yena Sohn** was born! 참 고생 많았다 Sangmi!
