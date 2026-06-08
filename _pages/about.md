@@ -17,28 +17,20 @@ Research Interests 💡
 
 News ⭐ 
 ======
-- [Apr 2026] **Sohn, J.**, Song, Q., & Lin, G. [Task-tailored Pre-processing: Fair Downstream Supervised Learning.](https://arxiv.org/abs/2601.11897). Minor revision was submitted to **Transactions on Pattern Analysis and Machine Intelligence**. 
+- [June 2026] **Sohn, J.** and Song, Q. [Parallelly Tempered Generative Adversarial Nets: Toward Stabilized Gradients.](https://arxiv.org/abs/2411.11786) (2026+). Accepted in **Journal of American Statistical Association** (in-press).
 
-- [Mar 2026] **Sohn, J.** and Song, Q. [Parallelly Tempered Generative Adversarial Networks.](https://arxiv.org/abs/2411.11786).  Minor revision was submitted to **Journal of American Statistical Association**.
+- [May 2026] **Sohn, J.**, Song, Q., & Lin, G. [Task-tailored Pre-processing: Fair Downstream Supervised Learning.](https://arxiv.org/abs/2601.11897) (2026+). Accepted in **Transactions on Pattern Analysis and Machine Intelligence** (in-press). 
 
-- [Oct 2025] **Sohn, J.**, Song, Q., & Lin, G. Task-tailored Pre-processing: Fair Downstream Supervised Learning. Under revision in **Transactions on Pattern Analysis and Machine Intelligence**.
+- [May 2025] Lim, T., Nam, K., and **Sohn, J.** Monotone Curve Estimation with Convex Duality. Under Major Revision in **Journal of American Statistical Association**.
 
 - [Oct 2025] My daughter **Yena Sohn** was born! 참 고생 많았다 Sangmi!
 
-- [Sep 2025] Lim, T., Nam, K., and **Sohn, J.** Monotone Curve Estimation with Convex Duality. Under R&R in **Journal of American Statistical Association**
-
 - [July 2025] **Jinwon Sohn** joined Chicago Booth as a postdoc under the supervision of Prof. Veronika Rockova.
-
-- [Jan 2025] Lim, T., Nam, K., and **Sohn, J.** [Monotone Curve Estimation with Convex Duality](https://arxiv.org/abs/2501.06975) is now available at arxiv. 
-
-- [Nov 2024] **Jinwon Sohn** will present a talk at Graduate Student Workshop hosted by Statistics at Purdue. Title: Parallelly Tempered Generative Adversarial Networks. 
-
-- [Nov 2024] **Sohn, J.** and Song, Q. [Parallelly Tempered Generative Adversarial Networks.](https://arxiv.org/abs/2411.11786).  This is under revision for the special issue (Statistical Science in Artificial Intelligence) in **Journal of American Statistical Association**.
-
-- [May 2024] **Jinwon Sohn** is selected for 2024-2025 Ross Lynn Research Scholar Grant for Statistics at Purdue University.
 
 Recent Publications 📚
 ======
--  **Sohn, J.**, Song, Q., & Lin, G. (2024). Fair Supervised Learning with A Simple Random Sampler of Sensitive Attributes. *AISTAT* (pp. 1594-1602). PMLR.
+- **Sohn, J.**, & Song, Q. (2026+). Parallelly Tempered Generative Adversarial Nets: Toward Stabilized Gradients. *Journal of the American Statistical Association* (in-press). 
+- **Sohn, J.**, Song, Q., & Lin, G. (2026+). Task-tailored Pre-processing: Fair Downstream Supervised Learning. *Transactions on Pattern Analysis and Machine Intelligence* (in-press). 
+- **Sohn, J.**, Song, Q., & Lin, G. (2024). Fair Supervised Learning with A Simple Random Sampler of Sensitive Attributes. *AISTAT* (pp. 1594-1602). PMLR.
 - Kang, T., Kim, S., **Sohn, J.**, & Awan, J. (2024). Differentially Private Topological Data Analysis. *Journal of Machine Learning Research*.
 - **Sohn, J.**, Jeong, S., Cho, Y. M., & Park, T. (2023). Functional Clustering Methods for Binary Longitudinal Data with Temporal Heterogeneity. *Computational Statistics & Data Analysis*, 185, 107766. 
